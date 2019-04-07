@@ -1,0 +1,15 @@
+#void{
+  height:100%;
+  width:100%;
+}
+
+.content{
+  position: relative;
+  height:100%;
+  width:90%;
+  z-index: 4;
+  margin-bottom:2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}

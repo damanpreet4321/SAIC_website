@@ -1,0 +1,354 @@
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Legacy</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script src="JS/cover.js"></script>
+  <script src="JS/elements.js"></script>
+  <script src="JS/overlay.js"></script>
+  <script src="JS/team.js"></script>
+  <script src="JS/about.js"></script>
+  <script src="JS/event.js"></script>
+  <script src="JS/ctu.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="CSS/cover.css">
+  <link rel="stylesheet" type="text/css" href="CSS/event.css">
+  <link rel="stylesheet" type="text/css" href="CSS/ctu.css">
+  <link rel="stylesheet" type="text/css" href="CSS/elements.css">
+  <link rel="stylesheet" type="text/css" href="CSS/content.css">
+  <link rel="stylesheet" type="text/css" href="CSS/overlay.css">
+  <link rel="stylesheet" type="text/css" href="CSS/loader.css">
+  <link rel="stylesheet" type="text/css" href="CSS/team.css">
+  <link rel="stylesheet" type="text/css" href="CSS/about.css">
+  <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind+Madurai" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+
+<body>
+<!--
+  <div class="preloader">
+   <div class="loader">
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__bar"></div>
+   <div class="loader__ball"></div>
+  </div>
+-->
+</div>
+
+  <div id="container">
+
+      <div id="myNav1" class="overlay">
+
+            <a href="javascript:void(10)" class="closebtn" onclick="closeNav()">&times</a>
+
+            <div class="overlay-content" id="myNav1-content">
+
+                  <img src="img/saic_1.png" class="overlay_logo">
+
+                      <a href="#" id="list1_obj1" class="list1" >About</a>
+
+                      <a href="#" id="list1_obj2" class="list1" >Events</a>
+
+
+            </div>
+
+      </div>
+
+      <div id="myNav2" class="overlay">
+
+              <div class="overlay-content" id="myNav2-content">
+
+                  <img src="img/saic_1.png" class="overlay_logo">
+
+                      <a href="#" id="list2_obj1" class="list2">Connect TU</a>
+
+                      <a href="#" id="list2_obj2" class="list2" >Our Team</a>
+
+                     <a href="#" id="list2_obj3" class="list2">Contact Us</a>
+
+            </div>
+           </div>
+
+    </div>
+
+  <div id="nav" onclick="openNav();">
+    <div id="nav_icon"></div>
+  </div>
+
+  <div id="msg">
+    <div id="msg_icon"></div>
+  </div>
+
+  <div id="page_no">
+    Page <span id="txt"></span>
+  </div>
+  <div class="logo"></div>
+  <a class="slide">
+    <svg class="arrow">
+
+                  <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                  <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                  <path class="a3" d="M0 40 L30 72 L60 40"></path>
+
+    </svg>
+  </a>
+  <div id="cover">
+
+    <div id=img></div>
+    <div id="shadow"></div>
+
+  </div>
+
+  <div id="void"></div><div id="void"></div>
+
+  <div id="about" class="content">
+    <img class ="svg_1" src="img/svg_el/arrow.svg">
+    <img class ="svg_2" src="img/svg_el/note.png">
+
+    <div id="reel">
+      <div id="reel_fil1">
+          <div id="ar_f" class="ar"></div>
+      </div>
+      <div id="reel_fil2">
+          <div id="ar_b" class="ar"></div>
+      </div>
+      <img class ="svg_team" src="img/svg_el/team_reel.png">
+    </div>
+    <div class ='head'>
+      <div class="ah_1">OUR MISSION STATEMENT</div>
+      <div class='ah_2'> LET'S BRIDGE THE GAP </div>
+    </div>
+    <span id="_1" class="about_content">
+      Student Alumni Interaction Cell (SAIC) is an institute body run by the students of TIET.<br/>
+    </span>
+    <span id="_2" class="about_content">
+      It acts as a collaborative and symbiotic linkage between TIET and its Alumni.<br/>
+    </span>
+    <span id="_3" class="about_content">
+      The organization functions with a vision to develop a dynamic student-alumni community.<br/>
+    </span>
+    <span id="_4" class="about_content">
+      It facilitating TIET’s mission of providing top quality education and opportunities for investing in its future.<br/>
+    </span>
+
+  </div>
+
+  <img id="ctu_header" src="img/ctu/ctu.png"></img>
+  <div id="ctu" class="content">
+    <img src="img/ctu/ctu_quote.png" id='ctu_quote'>
+    <img class ="svg_ev" id="bar_1" src="img/svg_el/arrow-down.svg">
+    <img class ="svg_ev" id="bar_3" src="img/svg_el/arrow-down.svg">
+    <div id="wrapper">
+      <section class=btn>
+        <div class="ctu_btn">
+          <a href="#">
+            <input type="submit" value="Connect TU" id="button-blue"/>
+            <div class="white"></div>
+          </a>
+        </div>
+    </section>
+    </div>
+  </div>
+
+  <img id="event_header" src="img/event/event.png"></img>
+  <div id="event" class="content">
+    <img class ="svg_back" id="bar_3" src="img/ele/back_48_white.png">
+    <div id="event_over">
+      <img src="img/event/event_quote.png" id='event_quote'>
+      <img class ="svg_ev" id="bar_1" src="img/svg_el/arrow-down.svg">
+      <img class ="svg_ev" id="bar_3" src="img/svg_el/arrow-down.svg">
+      <section class=btn>
+        <div class="ctu_btn">
+            <input type="submit" value="Event Gallery" id="button-blue" class="eve_gal"/>
+            <div class="white"></div>
+        </div>
+    </div>
+    <div class='parent'>
+      <div class='slider'>
+       <button type="button" id='right' class='right' name="button">
+
+           <svg version="1.1" id="Capa_1" width='40px' height='40px ' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+           <g>
+            <path style='fill: #9d9d9d;' d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+              c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z
+              "/>
+           </g>
+
+           </svg>
+
+           </button>
+       <button type="button" id='left' class='left' name="button">
+           <svg version="1.1" id="Capa_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+           <g>
+            <path style='fill: #9d9d9d;' d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+              c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
+           </g>
+           </svg>
+           </button>
+       <svg id='svg2' class='up2' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <circle id='circle1' class='circle1 steap' cx="34px" cy="49%" r="20"  />
+          <circle id='circle2' class='circle2 steap' cx="34px" cy="49%" r="100"  />
+          <circle id='circle3' class='circle3 steap' cx="34px" cy="49%" r="180"  />
+          <circle id='circle4' class='circle4 steap' cx="34px" cy="49%" r="260"  />
+          <circle id='circle5' class='circle5 steap' cx="34px" cy="49%" r="340"  />
+          <circle id='circle6' class='circle6 steap' cx="34px" cy="49%" r="420"  />
+          <circle id='circle7' class='circle7 steap' cx="34px" cy="49%" r="500"  />
+          <circle id='circle8' class='circle8 steap' cx="34px" cy="49%" r="580"  />
+          <circle id='circle9' class='circle9 steap' cx="34px" cy="49%" r="660"  />
+        </svg>
+       <svg id='svg1' class='up2' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <circle id='circle10' class='circle10 steap' cx="648px" cy="49%" r="20"  />
+          <circle id='circle11' class='circle11 steap' cx="648px" cy="49%" r="100"  />
+          <circle id='circle12' class='circle12 steap' cx="648px" cy="49%" r="180"  />
+          <circle id='circle13' class='circle13 steap' cx="648px" cy="49%" r="260"  />
+          <circle id='circle14' class='circle14 steap' cx="648px" cy="49%" r="340"  />
+          <circle id='circle15' class='circle15 steap' cx="648px" cy="49%" r="420"  />
+          <circle id='circle16' class='circle16 steap' cx="648px" cy="49%" r="500"  />
+          <circle id='circle17' class='circle17 steap' cx="648px" cy="49%" r="580"  />
+          <circle id='circle18' class='circle18 steap' cx="648px" cy="49%" r="660"  />
+        </svg>
+
+     <a href="#"><div id='slide1' class='slide1 up1'></div></a>
+     <a href="#"><div id='slide2' class='slide2'></div></a>
+     <a href="#"><div id='slide3' class='slide3'></div></a>
+     <a href="#"><div id='slide4' class='slide4'></div></a>
+
+      </div>
+    </div>
+
+  </div>
+
+  <img id="team_header" src="img/team/team.png"></img>
+  <div id="team" class="content">
+
+      <div id="team_head"></div>
+      <!--
+      <div class="row">
+        <figure>
+          <img class="holder" src="img/team/temp2.jpg">
+          <figcaption>President SAIC</figcaption>
+        </figure>
+        <figure>
+          <img class="holder" src="img/team/temp1.jpg">
+          <figcaption>President SAIC</figcaption>
+        </figure>
+      </div>
+
+      <div class="row">
+        <figure>
+          <img class="holder" src="img/team/temp2.jpg">
+          <figcaption>Executive</figcaption>
+        </figure>
+        <figure>
+          <img class="holder" src="img/team/temp1.jpg">
+          <figcaption>Executive</figcaption>
+        </figure>
+        <figure>
+          <img class="holder" src="img/team/temp2.jpg">
+          <figcaption>Executive</figcaption>
+        </figure>
+        <figure>
+          <img class="holder" src="img/team/temp1.jpg">
+          <figcaption>Executive</figcaption>
+        </figure>
+      </div>
+
+      <div class="row">
+        <figure>
+          <img class="holder" src="img/team/temp2.jpg">
+          <figcaption>Executive</figcaption>
+        </figure>
+        <figure>
+          <img class="holder" src="img/team/temp1.jpg">
+          <figcaption>Executive</figcaption>
+        </figure>
+        <figure>
+          <img class="holder" src="img/team/temp2.jpg">
+          <figcaption>Executive</figcaption>
+        </figure>
+        <figure>
+          <img class="holder" src="img/team/temp1.jpg">
+          <figcaption>Executive</figcaption>
+        </figure>
+        </div>
+        -->
+  </div>
+
+  <div class="footer">
+    <footer class="flex-rw">
+
+      <ul class="footer-list-top">
+        <li>
+          <h4 class="footer-list-header">About Us</h4></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
+
+        <li><a href='#' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
+
+        <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
+      </ul>
+      <ul class="footer-list-top">
+        <li>
+          <h4 class="footer-list-header">The Gift Selection</h4></li>
+
+
+        <li><a href='#' class="generic-anchor footer-list-anchor">FIGURINES</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor">POSTERS</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor">CANVAS</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor">PET LOVER</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS</a></li>
+      </ul>
+      <ul class="footer-list-top">
+        <li id='help'>
+          <h4 class="footer-list-header">Please Help Me</h4></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+        <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+        <li id='#'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
+        <li id='#'><a href='/shop/user-registration?URL=' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
+        <li id='#'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
+      </ul>
+      <section class="footer-social-section flex-rw">
+          <span class="footer-social-overlap footer-social-connect">
+          CONNECT <span class="footer-social-small">with</span> US
+          </span>
+          <span class="footer-social-overlap footer-social-icons-wrapper">
+          <a href="#" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+          <a href="#" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+          <a href="#" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+          <a href="#" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+          </span>
+      </section>
+      <section class="footer-bottom-section flex-rw">
+    <div class="footer-bottom-wrapper">
+    <i class="fa fa-copyright" role="copyright">
+
+    </i> 2006 Legacy <address class="footer-address" role="company address">Patna,India</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+        </div>
+        <div class="footer-bottom-wrapper">
+        <a href="#" class="generic-anchor" rel="nofollow">Terms</a> | <a href="/privacy-policy.html" class="generic-anchor" rel="nofollow">Privacy</a>
+          </div>
+      </section>
+  </footer>
+
+</div>
+
+</body>
+
+</html>

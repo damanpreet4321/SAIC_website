@@ -1,0 +1,151 @@
+#about{
+  background-color:#fefcfb;
+  overflow: hidden;
+}
+
+.svg_1{
+  position: relative;
+  margin:1.3vw;
+  margin-top: 1.95vh;
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.svg_2{
+  position: absolute;
+  right:5%;
+  top:0;
+  z-index:1;
+  width:200px;
+  height: auto;
+  opacity:1;
+}
+
+.svg_team{
+  position: absolute;
+  right:-200%;
+  height: 35vh;
+  opacity: 1;
+}
+
+#reel{
+  position: absolute;
+  overflow: hidden;
+  bottom: 10%;
+  left:10%;
+  width:80%;
+  margin:auto;
+  padding:20px;
+  height:40vh;
+  z-index: 2;
+}
+
+#reel_fil1{
+  position: absolute;
+  height: 35vh;
+  left:0;
+  width:30%;
+  background-color:#fefcfb;
+  opacity: 0.85;
+  z-index: 5;
+}
+
+#reel_fil2{
+  position: absolute;
+  height: 35vh;
+  right:0;
+  width:30%;
+  background-color:#fefcfb;
+  opacity: 0.85;
+  z-index: 5;
+}
+
+.ar{
+    position: absolute;
+    background-image: url(../img/ele/arrow-24-black.png);
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background-repeat:no-repeat;
+    transition: all 1s ease-in-out;
+}
+
+.ar:hover{
+  cursor: pointer;
+}
+
+#ar_f{
+  top:-50%;
+  right:50%;
+  transform: rotate(180deg);
+}
+
+#ar_b{
+  top:50%;
+  left:50%;
+}
+.head{
+  position: absolute;
+  margin: 5px;
+  margin-top: 1.35vw;
+  left: 9%;
+  top:1%;
+  font-weight: lighter;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 5vw;
+  color: black;
+  color: #c93325;
+  z-index: 5;
+  overflow: hidden;
+  height: 10%;
+  width: 70%;
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  transform: translateY(50px);
+
+}
+.ah_1{
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  transition: all 0.8s ease-in-out;
+}
+.ah_2{
+  width:100%;
+  position: absolute;
+  opacity:1;
+  transition: all 0.8s ease-in-out;
+  transform: translateY(100px);
+  z-index: 6;
+}
+
+.about_content{
+    position: absolute;
+    margin-left:3vw;
+    margin-bottom: 2.275vw;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.3vw;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: translateY(60px);
+    z-index: 2;
+}
+
+.final{
+  opacity: 1;
+  transform:translate(0,0);
+}
+
+#_1{
+  top:20vh;
+}
+#_2{
+  top:24.84vh;
+}
+#_3{
+  top:29.68vh;
+}
+#_4{
+  top:34.52vh;
+}

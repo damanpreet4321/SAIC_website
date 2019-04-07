@@ -1,0 +1,95 @@
+#container{
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#myNav1 {
+    height: 0;
+    width: 50%;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    background-color: #ffff;
+    overflow: hidden;
+    transition: 0.3s;
+    opacity: 0.95;
+}
+
+#myNav2 {
+    height: 0;
+    width: 50%;
+    position: fixed;
+    z-index: 6;
+    bottom: 0;
+    right: 0;
+    background-color: #ffff;
+    overflow: hidden;
+    transition: 0.3s;
+    opacity: 0.95;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#myNav1-content{
+    top: 12%;
+    left: 5%;
+    display: none;
+}
+
+#myNav2-content{
+    top: 12%;
+    right: 10%;
+    display: none;
+
+}
+
+.overlay a {
+    margin-left:  37%;
+    padding: 8px;
+    width: 28%;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    display: block;
+    transition: 0.2s ease;
+
+}
+
+.overlay .closebtn:hover, .overlay .closebtn:focus{
+    border: none;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.overlay a:hover, .overlay a:focus {
+     color: #d03742;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: thin;
+    border-bottom-color: #d03742;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+
+
+.overlay .closebtn {
+    border-style: none;
+    position: absolute;
+    text-decoration: none;
+    top: 2%;
+    margin-left: 2%;
+    font-size: 30px;
+}

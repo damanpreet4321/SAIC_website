@@ -1,0 +1,33 @@
+#ctu{
+  background-image:url(../img/ctu/ctu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 12%
+}
+#ctu_header{
+  position:absolute;
+  z-index:999;
+  top:308%;
+  right: 27%;
+  margin: auto;
+}
+#bar_3{
+  transform: rotate(90deg);
+  bottom:50%;
+  left: 0.5%;
+}
+#bar_1{
+  transform: rotate(90deg);
+  bottom:50%;
+  right: 0.5%;
+}
+#ctu_quote{
+  position: absolute;
+  top:29%;
+  right:18%;
+}
+#wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
